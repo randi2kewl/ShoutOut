@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Juce_Template">
+      <UniqueIdentifier>{81442f2f-5fb3-4e61-9a77-32fe0eebd090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce_Template\Source">
+      <UniqueIdentifier>{764a82de-f1bf-490c-834a-f0f9afb885b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Library Code">
+      <UniqueIdentifier>{c2e79d90-9b99-49f2-b5db-4c9b62bd2a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce_Template\Source\BinaryData">
+      <UniqueIdentifier>{c2af6c89-d065-4ffe-969f-61513cb2638c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce_Template\Source\Account Files">
+      <UniqueIdentifier>{c249f01a-e0bd-4473-806b-e962ad70aa7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce_Template\Source\Headers">
+      <UniqueIdentifier>{f68d418a-bdf9-48ae-9902-cabe1e15bb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce_Template\Source\CPP files">
+      <UniqueIdentifier>{b271320d-c8f0-4425-9571-fc32fc1624ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode1.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode2.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode3.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode4.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Dashboard.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoComponent.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainComponent.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registration.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="UsernameCompare.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortList.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shout.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseSortList.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundCornerBox.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoutComponent.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewFollowers.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewFollowing.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewShouts.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MainWindow.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortShouts.cpp">
+      <Filter>Juce_Template\Source\CPP files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Dashboard.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoComponent.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainComponent.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Registration.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UsernameCompare.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SortList.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shout.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseSortList.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MainWindow.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundCornerBox.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Search.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoutComponent.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewFollowers.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewFollowing.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewShouts.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SortShouts.h">
+      <Filter>Juce_Template\Source\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="so.png">
+      <Filter>Juce_Template\Source\BinaryData</Filter>
+    </None>
+    <None Include="username2.fol">
+      <Filter>Juce_Template\Source\Account Files</Filter>
+    </None>
+    <None Include="username0.fol">
+      <Filter>Juce_Template\Source\Account Files</Filter>
+    </None>
+    <None Include="username0.shout">
+      <Filter>Juce_Template\Source\Account Files</Filter>
+    </None>
+    <None Include="username1.fol">
+      <Filter>Juce_Template\Source\Account Files</Filter>
+    </None>
+    <None Include="Accounts.acct">
+      <Filter>Juce_Template\Source\Account Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

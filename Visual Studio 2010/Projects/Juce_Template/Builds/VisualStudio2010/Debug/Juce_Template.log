@@ -1,0 +1,30 @@
+﻿Build started 4/25/2012 4:23:59 PM.
+     1>Project "J:\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2010\Juce_Template.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\Juce_Template.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D JUCER_VS2010_78A501D=1 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\MainWindow.cpp ..\..\Source\Main.cpp ..\..\JuceLibraryCode\JuceLibraryCode1.cpp ..\..\JuceLibraryCode\JuceLibraryCode2.cpp ..\..\JuceLibraryCode\JuceLibraryCode3.cpp ..\..\JuceLibraryCode\JuceLibraryCode4.cpp
+         MainWindow.cpp
+         Main.cpp
+     1>j:\visual studio 2010\projects\juce_template\source\main.cpp(29): warning C4100: 'commandLine' : unreferenced formal parameter
+     1>j:\visual studio 2010\projects\juce_template\source\main.cpp(63): warning C4100: 'commandLine' : unreferenced formal parameter
+         JuceLibraryCode1.cpp
+         JuceLibraryCode2.cpp
+         JuceLibraryCode3.cpp
+         JuceLibraryCode4.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Juce_Template.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:".\Debug\Juce_Template.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug\Juce_Template.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Juce_Template.lib" /MACHINE:X86 .\Debug\MainWindow.obj
+         .\Debug\Main.obj
+         .\Debug\JuceLibraryCode1.obj
+         .\Debug\JuceLibraryCode2.obj
+         .\Debug\JuceLibraryCode3.obj
+         .\Debug\JuceLibraryCode4.obj
+     1>MainWindow.obj : error LNK2019: unresolved external symbol "public: __thiscall MainComponent::MainComponent(class std::list<class Account *,class std::allocator<class Account *> > *)" (??0MainComponent@@QAE@PAV?$list@PAVAccount@@V?$allocator@PAVAccount@@@std@@@std@@@Z) referenced in function "public: __thiscall MainAppWindow::MainAppWindow(void)" (??0MainAppWindow@@QAE@XZ)
+     1>MainWindow.obj : error LNK2019: unresolved external symbol "public: void __thiscall FileIO::readFile(void)" (?readFile@FileIO@@QAEXXZ) referenced in function "public: __thiscall MainAppWindow::MainAppWindow(void)" (??0MainAppWindow@@QAE@XZ)
+     1>.\Debug\Juce_Template.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "J:\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2010\Juce_Template.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:13.40

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Juce_Template">
+</Property><Property Name="Solution File" Value="C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Juce_Template.sln">
+</Property><Property Name="Date" Value="Friday, April 13, 2012">
+</Property><Property Name="Time" Value="14:22 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Juce_Template.sln" Description="File successfully backed up as C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Juce_Template.sln.old">
+</Event><Event ErrorLevel="0" Project="Juce_Template" Source="Juce_Template.vcproj" Description="Converting project file 'C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Juce_Template.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Juce_Template" Source="Juce_Template.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Juce_Template" Source="Juce_Template.vcproj" Description="VCConvertEngine could not convert attribute BufferSecurityCheck =  under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="1" Project="Juce_Template" Source="Juce_Template.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\.\Debug\Juce_Template.exe') does not match the Linker's OutputFile property value '.\Debug\Juce_Template.exe' ('C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Debug\Juce_Template.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="Juce_Template" Source="Juce_Template.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\.\Release\Juce_Template.exe') does not match the Linker's OutputFile property value '.\Release\Juce_Template.exe' ('C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Release\Juce_Template.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="Juce_Template" Source="Juce_Template.vcproj" Description="Done converting to new project file 'C:\Users\randi\Documents\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Juce_Template.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Juce_Template" Source="Juce_Template.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Juce_Template.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Juce_Template.sln" Description="Converted">
+</Event></UpgradeLog>

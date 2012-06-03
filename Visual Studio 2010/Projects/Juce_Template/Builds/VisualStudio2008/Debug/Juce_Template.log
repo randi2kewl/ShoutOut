@@ -1,0 +1,17 @@
+﻿Build started 5/2/2012 4:22:40 PM.
+     1>Project "C:\Users\randi\SkyDrive\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Juce_Template.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\Juce_Template.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Juce_Template.vcxproj -> C:\Users\randi\SkyDrive\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\.\Debug\Juce_Template.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\Juce_Template.unsuccessfulbuild".
+         Touching ".\Debug\Juce_Template.lastbuildstate".
+     1>Done Building Project "C:\Users\randi\SkyDrive\Visual Studio 2010\Projects\Juce_Template\Builds\VisualStudio2008\Juce_Template.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.47

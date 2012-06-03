@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A843A771-D89D-144E-2BEE-49BC2A53709B}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug\Juce_Template.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;_DEBUG;JUCER_VS2008_78A5006=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Debug\Juce_Template.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Debug\Juce_Template.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib; msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug\Juce_Template.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Juce_Template.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release\Juce_Template.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCER_VS2008_78A5006=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release\Juce_Template.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Release\Juce_Template.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release\Juce_Template.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Juce_Template.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MainWindow.cpp" />
+    <ClCompile Include="..\..\Source\Main.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode1.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode2.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode3.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode4.cpp" />
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Dashboard.cpp" />
+    <ClCompile Include="FileIO.cpp" />
+    <ClCompile Include="LogoComponent.cpp" />
+    <ClCompile Include="MainComponent.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Registration.cpp" />
+    <ClCompile Include="ReverseSortList.cpp" />
+    <ClCompile Include="RoundCornerBox.cpp" />
+    <ClCompile Include="Search.cpp" />
+    <ClCompile Include="Shout.cpp" />
+    <ClCompile Include="ShoutComponent.cpp" />
+    <ClCompile Include="SortList.cpp" />
+    <ClCompile Include="SortShouts.cpp" />
+    <ClCompile Include="UsernameCompare.cpp" />
+    <ClCompile Include="ViewFollowers.cpp" />
+    <ClCompile Include="ViewFollowing.cpp" />
+    <ClCompile Include="ViewShouts.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MainWindow.h" />
+    <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h" />
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h" />
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Dashboard.h" />
+    <ClInclude Include="FileIO.h" />
+    <ClInclude Include="LogoComponent.h" />
+    <ClInclude Include="MainComponent.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Registration.h" />
+    <ClInclude Include="ReverseSortList.h" />
+    <ClInclude Include="RoundCornerBox.h" />
+    <ClInclude Include="Search.h" />
+    <ClInclude Include="Shout.h" />
+    <ClInclude Include="ShoutComponent.h" />
+    <ClInclude Include="SortList.h" />
+    <ClInclude Include="SortShouts.h" />
+    <ClInclude Include="UsernameCompare.h" />
+    <ClInclude Include="ViewFollowers.h" />
+    <ClInclude Include="ViewFollowing.h" />
+    <ClInclude Include="ViewShouts.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Accounts.acct" />
+    <None Include="so.png" />
+    <None Include="username0.fol" />
+    <None Include="username0.shout" />
+    <None Include="username1.fol" />
+    <None Include="username2.fol" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

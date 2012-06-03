@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Juce_Template">
+      <UniqueIdentifier>{588D56D9-4C27-33E9-67EC-6A91B719A9B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce_Template\Source">
+      <UniqueIdentifier>{931A819F-0D9B-7BCE-CD90-CC8928234E7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Library Code">
+      <UniqueIdentifier>{F7048EA6-F4B2-F31B-E402-E05D678A1111}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MainWindow.cpp">
+      <Filter>Juce_Template\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>Juce_Template\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode1.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode2.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode3.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode4.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MainWindow.h">
+      <Filter>Juce_Template\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

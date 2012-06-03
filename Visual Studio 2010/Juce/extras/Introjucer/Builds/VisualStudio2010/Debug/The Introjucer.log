@@ -1,0 +1,78 @@
+﻿Build started 4/25/2012 1:29:19 AM.
+     1>Project "C:\Users\randi\Documents\Visual Studio 2010\Juce\extras\Introjucer\Builds\VisualStudio2010\The Introjucer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\The Introjucer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D DEBUG /D _DEBUG /D JUCER_VS2010_78A501D=1 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\Application\jucer_DocumentEditorComponent.cpp ..\..\Source\Application\jucer_FilePreviewComponent.cpp ..\..\Source\Application\jucer_JuceUpdater.cpp ..\..\Source\Application\jucer_Main.cpp ..\..\Source\Application\jucer_MainWindow.cpp ..\..\Source\Application\jucer_OpenDocumentManager.cpp "..\..\Source\Code Editor\jucer_SourceCodeEditor.cpp" ..\..\Source\Project\jucer_GroupInformationComponent.cpp ..\..\Source\Project\jucer_NewFileWizard.cpp ..\..\Source\Project\jucer_NewProjectWizard.cpp ..\..\Source\Project\jucer_Project.cpp ..\..\Source\Project\jucer_ProjectContentComponent.cpp ..\..\Source\Project\jucer_ProjectExporter.cpp ..\..\Source\Project\jucer_ProjectInformationComponent.cpp ..\..\Source\Project\jucer_ProjectTreeViewBase.cpp ..\..\Source\Project\jucer_ResourceFile.cpp ..\..\Source\Project\jucer_TreeViewTypes.cpp ..\..\Source\Utility\jucer_CodeHelpers.cpp ..\..\Source\Utility\jucer_FileHelpers.cpp ..\..\Source\Utility\jucer_JucerTreeViewBase.cpp ..\..\Source\Utility\jucer_MiscUtilities.cpp ..\..\Source\Utility\jucer_StoredSettings.cpp ..\..\JuceLibraryCode\BinaryData.cpp ..\..\JuceLibraryCode\JuceLibraryCode1.cpp ..\..\JuceLibraryCode\JuceLibraryCode2.cpp ..\..\JuceLibraryCode\JuceLibraryCode3.cpp ..\..\JuceLibraryCode\JuceLibraryCode4.cpp
+         jucer_DocumentEditorComponent.cpp
+         jucer_FilePreviewComponent.cpp
+         jucer_JuceUpdater.cpp
+         jucer_Main.cpp
+         jucer_MainWindow.cpp
+         jucer_OpenDocumentManager.cpp
+         jucer_SourceCodeEditor.cpp
+         jucer_GroupInformationComponent.cpp
+         jucer_NewFileWizard.cpp
+         jucer_NewProjectWizard.cpp
+         jucer_Project.cpp
+         jucer_ProjectContentComponent.cpp
+         jucer_ProjectExporter.cpp
+         jucer_ProjectInformationComponent.cpp
+         jucer_ProjectTreeViewBase.cpp
+         jucer_ResourceFile.cpp
+         jucer_TreeViewTypes.cpp
+         jucer_CodeHelpers.cpp
+         jucer_FileHelpers.cpp
+         jucer_JucerTreeViewBase.cpp
+         Generating Code...
+         Compiling...
+         jucer_MiscUtilities.cpp
+         jucer_StoredSettings.cpp
+         BinaryData.cpp
+         JuceLibraryCode1.cpp
+         JuceLibraryCode2.cpp
+         JuceLibraryCode3.cpp
+         JuceLibraryCode4.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0409" /nologo /fo".\Debug\resources.res" .\resources.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Introjucer.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:".\Debug\Introjucer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug\Introjucer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Introjucer.lib" /MACHINE:X86 .\Debug\resources.res
+         .\Debug\jucer_DocumentEditorComponent.obj
+         .\Debug\jucer_FilePreviewComponent.obj
+         .\Debug\jucer_JuceUpdater.obj
+         .\Debug\jucer_Main.obj
+         .\Debug\jucer_MainWindow.obj
+         .\Debug\jucer_OpenDocumentManager.obj
+         .\Debug\jucer_SourceCodeEditor.obj
+         .\Debug\jucer_GroupInformationComponent.obj
+         .\Debug\jucer_NewFileWizard.obj
+         .\Debug\jucer_NewProjectWizard.obj
+         .\Debug\jucer_Project.obj
+         .\Debug\jucer_ProjectContentComponent.obj
+         .\Debug\jucer_ProjectExporter.obj
+         .\Debug\jucer_ProjectInformationComponent.obj
+         .\Debug\jucer_ProjectTreeViewBase.obj
+         .\Debug\jucer_ResourceFile.obj
+         .\Debug\jucer_TreeViewTypes.obj
+         .\Debug\jucer_CodeHelpers.obj
+         .\Debug\jucer_FileHelpers.obj
+         .\Debug\jucer_JucerTreeViewBase.obj
+         .\Debug\jucer_MiscUtilities.obj
+         .\Debug\jucer_StoredSettings.obj
+         .\Debug\BinaryData.obj
+         .\Debug\JuceLibraryCode1.obj
+         .\Debug\JuceLibraryCode2.obj
+         .\Debug\JuceLibraryCode3.obj
+         .\Debug\JuceLibraryCode4.obj
+         The Introjucer.vcxproj -> C:\Users\randi\Documents\Visual Studio 2010\Juce\extras\Introjucer\Builds\VisualStudio2010\.\Debug\Introjucer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Debug\Introjucer.exe;#1" /manifest .\Debug\Introjucer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\The Introjucer.unsuccessfulbuild".
+         Touching ".\Debug\The Introjucer.lastbuildstate".
+     1>Done Building Project "C:\Users\randi\Documents\Visual Studio 2010\Juce\extras\Introjucer\Builds\VisualStudio2010\The Introjucer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:48.77

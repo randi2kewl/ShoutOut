@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+Project("{F9BFD48D-D743-6261-3C8D-BB6F1552D768}") = "Juce_Template", "Juce_Template.vcxproj", "{A843A771-D89D-144E-2BEE-49BC2A53709B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A843A771-D89D-144E-2BEE-49BC2A53709B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A843A771-D89D-144E-2BEE-49BC2A53709B}.Debug|Win32.Build.0 = Debug|Win32
+		{A843A771-D89D-144E-2BEE-49BC2A53709B}.Release|Win32.ActiveCfg = Release|Win32
+		{A843A771-D89D-144E-2BEE-49BC2A53709B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

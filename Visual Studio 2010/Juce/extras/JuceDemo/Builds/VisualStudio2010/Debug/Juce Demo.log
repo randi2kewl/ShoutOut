@@ -1,0 +1,19 @@
+﻿Build started 4/24/2012 10:02:18 PM.
+     1>Project "C:\Users\randi\Documents\Visual Studio 2010\Juce\extras\JuceDemo\Builds\VisualStudio2010\Juce Demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\Juce Demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Juce Demo.vcxproj -> C:\Users\randi\Documents\Visual Studio 2010\Juce\extras\JuceDemo\Builds\VisualStudio2010\.\Debug\JuceDemo.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\Juce Demo.unsuccessfulbuild".
+         Touching ".\Debug\Juce Demo.lastbuildstate".
+     1>Done Building Project "C:\Users\randi\Documents\Visual Studio 2010\Juce\extras\JuceDemo\Builds\VisualStudio2010\Juce Demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14
